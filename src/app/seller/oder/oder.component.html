@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>OderId</th>
+            <th>Image</th>
+            <th>Product Info</th>
+            <th>Shipping Info</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of oderdata">
+            <td>#{{data.id}}</td>
+            <td><img src="{{data.productinfo.imageurl}}" alt="" height="200px"></td>
+            <td>
+                Product:{{data.productinfo.productname}}<br>
+                Price:{{data.productinfo.productprice}}
+            </td>
+            <td>
+                Name:{{data.fullname}}<br>
+                Phone:{{data.PhoneNumber}}<br>
+                Address:{{data.address}}<br>
+                Pincode:{{data.pincode}}<br>
+            </td>
+        </tr>
+    </tbody>
+</table>

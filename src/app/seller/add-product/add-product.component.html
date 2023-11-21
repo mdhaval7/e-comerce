@@ -1,0 +1,15 @@
+<div class="form">
+    <div *ngIf="addbtn">
+    <h1>Add Product</h1>
+    <form class="login-form" action="" [formGroup]="addProduct">
+
+        <input type="text" placeholder="productname" formControlName="productname" ngModel="{{editporduct.productname}}">
+
+        <input type="number" formControlName="productprice" placeholder="Product prize" ngModel="{{editporduct.productprice}}">
+        <textarea placeholder="product Discription" formControlName="productdis" cols="30" rows="2" ngModel="{{editporduct.productdis}}" ></textarea>
+        <!-- <button type="submit" class="mb-2" *ngIf="editbtn" (click)="editproduct()" >Edit</button> -->
+        <input type="text" formControlName="imageurl" placeholder="image url">
+        <button  type="submit" [disabled]="addProduct.invalid" (click)="addpproduct()">Add</button>
+    </form>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+
+<div class="container search-main">
+<div class="row serch-item mt-5" *ngFor="let serch of serchresult">
+    <div class="col-sm-3">
+        <!-- <h1>images</h1> -->
+        <img src="{{serch.imageurl}}" alt="" height="300px">
+    </div>
+    <div class="col-sm-8">
+        <h5>{{serch.productname}}</h5>
+        <p><b>{{serch.productprice}}</b></p>
+        <p>{{serch.productdis}}</p>
+        <button class="btn btn-warning">Add to cart</button>
+        <a routerLink="/buynow/{{serch.id}}" class="btn btn-primary">Buy Now</a>
+    </div>
+</div>
+</div>

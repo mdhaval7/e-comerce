@@ -1,0 +1,11 @@
+
+<div class="form">
+<h1>Add Shipping Address</h1>
+<form action="" [formGroup]="buydetil" (ngSubmit)="odernow()">
+    <input type="text" formControlName="fullname" placeholder="Full Name">
+    <input type="number" formControlName="PhoneNumber" placeholder="Phone Number">
+    <textarea  cols="30" rows="3" formControlName="address" placeholder="address"></textarea>
+    <input type="number" formControlName="pincode" placeholder="Pincode">
+    <button type="submit">Oder Now</button>
+</form>
+</div>

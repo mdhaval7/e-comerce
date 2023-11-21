@@ -1,0 +1,16 @@
+<div class="form">
+    
+    <h1>Edit Product</h1>
+    <form class="login-form" action="" [formGroup]="editproduct" (ngSubmit)="editpproducts()">
+
+        <input type="text" placeholder="productname" formControlName="productname" >
+
+        <input type="number" formControlName="productprice" placeholder="Product prize">
+        <textarea placeholder="product Discription" formControlName="productdis" cols="30" rows="2" ></textarea>
+        <!-- <button type="submit" class="mb-2" *ngIf="editbtn" (click)="editproduct()" >Edit</button> -->
+        <input type="text" formControlName="imageurl" placeholder="image url">
+        <button  type="submit">Edit</button>
+    </form>
+   
+</div>
+

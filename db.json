@@ -1,0 +1,148 @@
+{
+  "seller": [
+    {
+      "username": "dhaval",
+      "email": "d@d",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "d",
+      "email": "d@d",
+      "password": "1",
+      "id": 2
+    },
+    {
+      "username": "d",
+      "email": "d@d",
+      "password": "1",
+      "id": 3
+    },
+    {
+      "username": "d",
+      "email": "d@d",
+      "password": "1",
+      "id": 4
+    },
+    {
+      "username": "d",
+      "email": "d@d",
+      "password": "d",
+      "id": 5
+    },
+    {
+      "username": "d",
+      "email": "d@d",
+      "password": "d",
+      "id": 6
+    }
+  ],
+  "product": [
+    {
+      "productname": "vivo t2x 5g",
+      "productdis": "6 GB RAM | 128 GB ROM\\n16.71 cm (6.58 inch) Full HD+ Display\\n50MP + 2MP | 8MP Front Camera\\n5000 mAh Battery\\nDimensity 6020 Processor",
+      "productprice": 16500,
+      "imageurl": "https://rukminim1.flixcart.com/image/850/1000/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=90",
+      "id": 8
+    },
+    {
+      "productname": "OPPO A18 (Glowing Black)",
+      "productdis": "4 GB RAM | 64 GB ROM\n16.66 cm (6.56 inch) HD+ Display\n8MP + 2MP | 5MP Front Camera\n5000 mAh Battery\nHelio G85 Processor",
+      "productprice": 11000,
+      "imageurl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/u/x/x/-original-imaguy4ag7rbpshw.jpeg?q=70",
+      "id": 9
+    },
+    {
+      "productname": "vivo T2 Pro 5G (Dune Gold, 128 GB)",
+      "productdis": "8 GB RAM | 128 GB ROM\n17.22 cm (6.78 inch) Full HD+ Display\n64MP + 2MP | 16MP Front Camera\n4600 mAh Battery\nDimensity 7200 Processor",
+      "productprice": 23999,
+      "imageurl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/y/8/-original-imagtt4mhqrzjs9r.jpeg?q=70",
+      "id": 10
+    },
+    {
+      "productname": "iQOO Z7s 5G by vivo",
+      "productdis": "Snapdragon 695 5G Mobile Processor with a 6nm energy efficient process which will consume less power and enhance the battery life\n6.38 inches FHD+ AMOLED display, 1300 nits peak local brightness, 90 Hz refresh rate, Schott Xensation UP glass protection, IP54 rated\n64MP OIS Ultra Stable Camera; 2MP Bokeh camera; Front (Selfie) Camera: 16MP\nCamera Features: Ultra Stabilization video recording, Micro Movie Mode, Dual View Video, Night Mode, Portrait mode, Double Exposure, Panorama Mode, Pro mode, 1080p video at 60 fps\n44W FlashCharge, 50% charge in just 23 minutes 11 seconds. Ultra Game Mode, Motion Control, and 1200Hz Instant touch sampling rate for immersive gaming",
+      "productprice": 16999,
+      "imageurl": "https://m.media-amazon.com/images/I/51oW-QOqhaL._SX679_.jpg",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "username": "sdefgf",
+      "useremail": "fgdg@gfhgfh",
+      "password": "dgfhfdgh",
+      "id": 1
+    },
+    {
+      "username": "user",
+      "useremail": "u@u",
+      "password": "1",
+      "id": 2
+    },
+    {
+      "username": "user1",
+      "useremail": "u@u",
+      "password": "1",
+      "id": 3
+    },
+    {
+      "username": "d",
+      "useremail": "d@d",
+      "password": "1",
+      "id": 4
+    },
+    {
+      "username": "d",
+      "useremail": "d@d",
+      "password": "d",
+      "id": 5
+    },
+    {
+      "username": "s",
+      "useremail": "s@s",
+      "password": "s",
+      "id": 6
+    },
+    {
+      "username": "a",
+      "useremail": "a@a",
+      "password": "a",
+      "id": 7
+    },
+    {
+      "username": "s",
+      "useremail": "s@s",
+      "password": "s",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "productname": "vivo t2x 5g",
+      "productdis": "6 GB RAM | 128 GB ROM\\n16.71 cm (6.58 inch) Full HD+ Display\\n50MP + 2MP | 8MP Front Camera\\n5000 mAh Battery\\nDimensity 6020 Processor",
+      "productprice": 15990,
+      "imageurl": "https://rukminim1.flixcart.com/image/850/1000/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=90",
+      "userids": 7,
+      "productid": 8,
+      "id": 1
+    }
+  ],
+  "oder": [
+    {
+      "fullname": "dhaval",
+      "PhoneNumber": 123456797,
+      "address": "sdfsdfasdf",
+      "pincode": 1248451,
+      "productinfo": {
+        "productname": "vivo T2 Pro 5G (Dune Gold, 128 GB)",
+        "productdis": "8 GB RAM | 128 GB ROM\n17.22 cm (6.78 inch) Full HD+ Display\n64MP + 2MP | 16MP Front Camera\n4600 mAh Battery\nDimensity 7200 Processor",
+        "productprice": 23999,
+        "imageurl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/y/8/-original-imagtt4mhqrzjs9r.jpeg?q=70",
+        "id": 10
+      },
+      "userid": 7,
+      "id": 1
+    }
+  ]
+}

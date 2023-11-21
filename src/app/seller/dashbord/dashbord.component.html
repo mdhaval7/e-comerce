@@ -1,0 +1,31 @@
+
+<!-- <button>addProduct</button> -->
+<div class="container box">
+<a href="" class="btn btn-primary" routerLink="/addproduct">add product</a>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Image</th>
+        <th>Product Name</th>
+        <th>Product Discription</th>
+        <th>Product Price</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of data">
+        <td>{{product.id}}</td>
+        <td><img src="{{product.imageurl}}" width="100px"></td>
+        <td>{{product.productname}}</td>
+        <td>{{product.productdis}}</td>
+        <td>{{product.productprice}}</td>
+        <td><button type="submit" class="btn btn-primary" routerLink="/edituser/{{product.id}}">Edit</button></td>
+        <td><button class="btn btn-danger" (click)="delete(product.id)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+   
+  <a href="" routerLink="/oder">Show oder</a>
+  

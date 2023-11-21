@@ -1,0 +1,15 @@
+
+<div class="row mt-5">
+  <div class="col-md-3" *ngFor="let product of data" >
+  <div class="card" style="width: 18rem;">
+    <a href="" routerLink="detail/{{product.id}}">
+      <img src="{{product.imageurl}}" class="card-img-top" height="350px">
+    </a>
+    <div class="card-body" >
+      <h5 class="card-title" style="height: 50px; overflow: hidden;">{{product.productname}}</h5>
+      <p class="card-text size">{{product.productdis}}</p>
+      <a routerLink="detail/{{product.id}}" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+</div>

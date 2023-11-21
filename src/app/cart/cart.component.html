@@ -1,0 +1,28 @@
+<div class="container">
+    <h1>Cart List</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>image</th>
+                <th>Product Name & Detail</th>
+                <th>Price</th>
+                <th>Remove</th>
+                <th>Buy Now</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of carddata">
+                <td>
+                    <img src="{{data.imageurl}}" alt="" height="300px">
+                </td>
+                <td>
+                    <h5>{{data.productname}}</h5>
+                    {{data.productdis}}
+                </td>
+                <td>{{data.productprice}}</td>
+                <td> <button class="btn btn-danger" (click)="removeitem(data.id)">Remove</button></td>
+                <td><button class="btn btn-primary" (click)="buynow(data.productid)">Buy Now</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

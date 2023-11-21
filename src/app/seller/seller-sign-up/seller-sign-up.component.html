@@ -1,0 +1,23 @@
+
+<div class="form">
+    <h1>Sing Up</h1>
+    <!-- <p style="color: red;">{{message}}</p> -->
+  <form class="login-form" [formGroup]="sellerlogin" (ngSubmit)="sellerLoginform()">
+    <input type="text" placeholder="username" formControlName="username">
+    <!-- <span *ngIf="validuser && validuser.invalid && validuser.touched" style="color:red;">Enter Valid Username</span>
+   -->
+    <input type="text" placeholder="email" formControlName="email">
+    <!-- <span *ngIf="validemail && validemail.invalid && validemail.touched" style="color:red;">Enter Valid Email</span> -->
+  
+    <input type="password" placeholder="password" formControlName="password"/>
+    <!-- <span *ngIf="validpassword && validpassword.invalid && validpassword.touched " style="color:red;">Password Langth 5 Charecter</span> -->
+  
+    <button [disabled] ="sellerlogin.invalid" type="submit">login</button>
+    <!--  -->
+  
+    <p class="message">Alredy registered? <a href="" routerLink="/sellerlogin">Login</a></p>
+  </form>
+  </div>
+
+  
+

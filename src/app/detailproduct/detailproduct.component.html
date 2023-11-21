@@ -1,0 +1,13 @@
+<div class="mainbox">
+    <div class="iamge">
+        <img src="{{productdata.imageurl}}" height="550px">
+    </div>
+    <div class="body">
+        <h1>{{ productdata.productname}}</h1>
+        <p>{{productdata.productdis}}</p>
+        <h4><span>&#8377;</span>{{productdata.productprice}}</h4>
+        <button class="btn btn-warning" (click)="addtoCart()">add to cart</button>
+        <a routerLink="/buynow/{{productdata.id}}" class="btn btn-primary">Buy Now</a>
+    </div>
+</div>
+
